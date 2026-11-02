@@ -111,7 +111,7 @@ body{padding-top:52px}
 
 <div class="must">
   <b>必ず最初に読んでください</b>
-  <p>このページは、7zファイルを開いて、中の素材をパソコンに保存するページです。7zを開く別のソフトは要りません。左の手順を見ながら、右の画面で操作してください。</p>
+  <p>このページは、7zファイルを開いて、中の素材をパソコンに保存するページです。7zを開く別のソフトは要りません。左の手順を見ながら、右の画面で操作してください。選んだ7zファイルは、このパソコンの中だけで開きます。外部には送信されません。</p>
 </div>
 
 <div class="cols">
@@ -332,4 +332,3 @@ addEventListener('dragleave',e=>{if(!e.relatedTarget)$('drop').classList.remove(
 addEventListener('drop',e=>{e.preventDefault();$('drop').classList.remove('on');const f=e.dataTransfer.files[0];f&&load(f)});
 })();
 </script></body></html>
-
